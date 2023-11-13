@@ -1,4 +1,5 @@
 ## Clasificación de vinos con Wandb
+![Alt text](image.png)
 
 En este proyecto se utiliza Weights & Biases para ajustar y mejorar de manera sistemática  los hiperparámetros de un Clasificador de Impulso Gradual (Gradient Boosting) en el conjunto de datos público "wines".
 
