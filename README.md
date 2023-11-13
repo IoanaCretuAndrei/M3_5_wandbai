@@ -21,7 +21,4 @@ Número de estimadores (n_estimators): 50, 60 ,70<br>
 Submuestreo (subsample): 0,8, 1.0<br>
 
 En la siguiente enlace pueden observar los resultados de exactitud (accuracy) obtenidos con diferentes modelos que combinan diferentes hiperparámetro: 
-<a href = 'section.html'> Ver enlace </a>
-
-### Mejor modelo 
-
+https://wandb.ai/ioana-cretu22/wine-project/reports/Boosting-WineClassification-Wandb--Vmlldzo1ODk4MDE3 
