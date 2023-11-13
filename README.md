@@ -1,4 +1,5 @@
 ## Clasificación de vinos con Wandb
+
 ![Alt text](image.png)
 
 En este proyecto se utiliza Weights & Biases para ajustar y mejorar de manera sistemática  los hiperparámetros de un Clasificador de Impulso Gradual (Gradient Boosting) en el conjunto de datos público "wines".
@@ -23,3 +24,23 @@ Submuestreo (subsample): 0,8, 1.0<br>
 
 En la siguiente enlace pueden observar los resultados de exactitud (accuracy) obtenidos con diferentes modelos que combinan diferentes hiperparámetro: 
 https://wandb.ai/ioana-cretu22/wine-project/reports/Boosting-WineClassification-Wandb--Vmlldzo1ODk4MDE3 
+
+
+### Mejor modelo 
+
+
+El modelo con la puntuación más alta fue:
+
+gbm_lr0.2_depth3_est70_lossdeviance_subsample1.0_minsplit4_minleaf2.
+
+Este modelo específico tiene los siguientes hiperparámetros:
+
+Tasa de aprendizaje: 0.2 <br>
+Función de pérdida: deviance<br>
+Profundidad máxima: 3<br>
+Mínimo de muestras por hoja: 2<br>
+Mínimo de muestras para dividir: 4<br>
+Número de estimadores: 70<br>
+Submuestreo: 1.0<br>
+
+La exactitud (accuracy) conseguida con este modelo fue de 0.9021 .
